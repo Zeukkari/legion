@@ -1,0 +1,14 @@
+{
+  "name": "git-legion",
+  "version": "0.0.0",
+  "description": "A natural language personal assistant project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timo Aho",
+  "license": "MIT",
+  "dependencies": {
+    "api-ai": "0.0.7"
+  }
+}
