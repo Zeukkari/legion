@@ -9,7 +9,8 @@
   "author": "Timo Aho",
   "license": "MIT",
   "bin": {
-    "legion": "./bin/legion.coffee"
+    "legion": "./bin/legion.coffee",
+    "legion-telegram": "./bin/legion-telegram.coffee"
   },
   "dependencies": {
     "apiai": "^1.0.3",
