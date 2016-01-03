@@ -1,0 +1,51 @@
+{
+  "id": "a37d1b54-329c-4a9b-9266-67e1c433b2c9",
+  "name": "homecontrol.set",
+  "auto": true,
+  "contexts": [],
+  "templates": [
+    "set @device:device @state:state",
+    "turn @device:device @state:state",
+    "toggle @device:device @state:state",
+    "power @device:device @state:state"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "homecontrol.set",
+      "affectedContexts": [
+        {
+          "name": "homecontrol",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@device",
+          "name": "device",
+          "value": "$device",
+          "defaultValue": ""
+        },
+        {
+          "required": false,
+          "dataType": "@state",
+          "name": "state",
+          "value": "$state",
+          "defaultValue": ""
+        }
+      ],
+      "speech": "set $device to $state"
+    }
+  ],
+  "state": "LEARNED",
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "assistantCommand": {
+    "urlCommand": "",
+    "doCommand": ""
+  }
+}

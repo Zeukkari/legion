@@ -1,0 +1,40 @@
+{
+  "id": "54791a86-0793-4142-bfa6-6e38a6ba18a8",
+  "name": "homecontrol.get",
+  "auto": true,
+  "contexts": [],
+  "templates": [
+    "get @device:device state",
+    "get @device:device status",
+    "show @device:device status",
+    "show @device:device state",
+    "@device:device report"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "homecontrol.get",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@device",
+          "name": "device",
+          "value": "$device",
+          "defaultValue": ""
+        }
+      ],
+      "speech": "Device $device state is @state"
+    }
+  ],
+  "state": "LEARNED",
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "assistantCommand": {
+    "urlCommand": "",
+    "doCommand": ""
+  }
+}

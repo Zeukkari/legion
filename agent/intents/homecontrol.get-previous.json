@@ -1,0 +1,46 @@
+{
+  "id": "e75a13bc-11e5-4480-b512-5e25c70d031f",
+  "name": "homecontrol.get-previous",
+  "auto": true,
+  "contexts": [
+    "homecontrol"
+  ],
+  "templates": [
+    "What device are we talking about?"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "homecontrol.get-name",
+      "affectedContexts": [
+        {
+          "name": "homecontrol",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@device",
+          "name": "device",
+          "value": "#homecontrol.device"
+        },
+        {
+          "dataType": "@state",
+          "name": "state",
+          "value": "#homecontrol.state"
+        }
+      ],
+      "speech": "We are talking about $device"
+    }
+  ],
+  "state": "LEARNED",
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "assistantCommand": {
+    "urlCommand": "",
+    "doCommand": ""
+  }
+}

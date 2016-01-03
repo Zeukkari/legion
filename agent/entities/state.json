@@ -1,0 +1,51 @@
+{
+  "id": "2de113ba-85bf-4020-a436-9b50d90c8bf3",
+  "name": "state",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "ON",
+      "synonyms": [
+        "ON",
+        "on",
+        "up",
+        "enabled",
+        "powered on",
+        "running",
+        "online"
+      ]
+    },
+    {
+      "value": "OFF",
+      "synonyms": [
+        "OFF",
+        "off",
+        "down",
+        "disabled",
+        "powered down",
+        "not running",
+        "offline"
+      ]
+    },
+    {
+      "value": "DIM",
+      "synonyms": [
+        "DIM",
+        "dim",
+        "dimmed"
+      ]
+    },
+    {
+      "value": "UNDEF",
+      "synonyms": [
+        "UNDEF",
+        "undef",
+        "undefined",
+        "null",
+        "uninitialized"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

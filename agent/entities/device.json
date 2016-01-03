@@ -1,0 +1,125 @@
+{
+  "id": "a5dc5f40-128d-41a4-a908-fb769707ff35",
+  "name": "device",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Dimmer1",
+      "synonyms": [
+        "Ceiling Light",
+        "Main Light",
+        "Primary Light"
+      ]
+    },
+    {
+      "value": "Dimmer2",
+      "synonyms": [
+        "Desk Light",
+        "Secondary Dimmer",
+        "Work Light",
+        "Dimmer 2",
+        "Desktop Dimmer"
+      ]
+    },
+    {
+      "value": "Socket4",
+      "synonyms": [
+        "Fan",
+        "Ventilation"
+      ]
+    },
+    {
+      "value": "Socket3",
+      "synonyms": [
+        "Auxiliary Light",
+        "Stick Light",
+        "LED Stick"
+      ]
+    },
+    {
+      "value": "Hue3",
+      "synonyms": [
+        "Kitchen Light",
+        "Hue 3"
+      ]
+    },
+    {
+      "value": "Hue2",
+      "synonyms": [
+        "Hue2",
+        "Entry Light",
+        "Hallway Light",
+        "Dress up light"
+      ]
+    },
+    {
+      "value": "Hue1",
+      "synonyms": [
+        "Hue1",
+        "Background Hue",
+        "Background Light",
+        "Workstation Light"
+      ]
+    },
+    {
+      "value": "Socket5",
+      "synonyms": [
+        "Switch5",
+        "Socket5",
+        "Nightstand",
+        "Night Light",
+        "Bed Light",
+        "Nightstand Light"
+      ]
+    },
+    {
+      "value": "Socket6",
+      "synonyms": [
+        "Swithc6",
+        "Socket6"
+      ]
+    },
+    {
+      "value": "Socket7",
+      "synonyms": [
+        "Switch7",
+        "Socket7"
+      ]
+    },
+    {
+      "value": "Socket8",
+      "synonyms": [
+        "Switch8",
+        "Coffeemaker",
+        "Kitchen Socket",
+        "Socket8"
+      ]
+    },
+    {
+      "value": "CastDown",
+      "synonyms": [
+        "Cast",
+        "Volume down"
+      ]
+    },
+    {
+      "value": "CastUp",
+      "synonyms": [
+        "CastUp",
+        "Volume Up",
+        "Louder"
+      ]
+    },
+    {
+      "value": "gLights",
+      "synonyms": [
+        "gLights",
+        "All lights",
+        "Lights",
+        "Everything"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}
