@@ -1,0 +1,26 @@
+{
+  "name": "git-legion",
+  "version": "0.0.0",
+  "description": "Smarthome personal assistant project with OpenHAB and api.ai.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timo Aho",
+  "license": "MIT",
+  "dependencies": {
+    "apiai": "^1.0.3",
+    "body-parser": "^1.14.1",
+    "castnow": "^0.4.14",
+    "coffee": "^2.1.0",
+    "coffee-script": "^1.10.0",
+    "express": "^4.13.3",
+    "google-translate": "^1.0.3",
+    "pm2": "^0.15.10",
+    "request": "^2.67.0",
+    "shell_exec": "^1.0.3",
+    "telegram-bot": "^0.3.0",
+    "wolfram-alpha": "^0.3.0",
+    "xml2js": "^0.4.15"
+  }
+}
