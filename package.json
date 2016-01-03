@@ -1,5 +1,5 @@
 {
-  "name": "git-legion",
+  "name": "legion",
   "version": "0.0.0",
   "description": "Smarthome personal assistant project with OpenHAB and api.ai.",
   "main": "index.js",
@@ -8,6 +8,9 @@
   },
   "author": "Timo Aho",
   "license": "MIT",
+  "bin": {
+    "legion": "./bin/legion.coffee"
+  },
   "dependencies": {
     "apiai": "^1.0.3",
     "body-parser": "^1.14.1",

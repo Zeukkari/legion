@@ -1,8 +1,6 @@
-##
-# Telegram bot
-##
+#!/usr/bin/env coffee
+LegionIO = require('..')
 Telegram = require('telegram-bot')
-LegionIO = require('./lib/legion')
 
 
 tg = new Telegram(process.env.TELEGRAM_BOT_TOKEN)
